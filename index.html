@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+	<meta charset="UTF-8">
+	<title>La verdu online</title>
+	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- codigo de colores y estilos escrito por nosotros -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia openSans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+	<link rel="icon" type="image/png" href="./images/icono-titulo.png" />
+
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+<body>
+<header>
+	<div class="container">
+		<div class="row top">
+			<!-- en esta linea cambiamos nuestro logo. -->
+			<div class="col-md-4"><a href="#home" data-ancla="home" class="off">
+				<img src="images/logograndeverdu.png" alt="" class="logo"></a></div>
+			<div class="col-md-3"></div>
+			<div class="col-md-5">
+				<ul class='botonera' id="menu-355">
+					<li><a href="#nosotros" data-ancla="nosotros"> Quienes somos </a></li>
+					<li><a href="#servicios" data-ancla="servicios">Productos</a></li>
+					<li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="principal vertical-centered-text" id="home">
+	<div class="col-md-8 cta"><h1 id="fuente-personalizada-1">LA VERDU ONLINE</h1> 
+			<h4 id="fuente-personalizada-2"></h4>
+			<p class="off"></p>
+<a  target="_blank" href="https://api.whatsapp.com/send?phone=543513845866&text=&source=&data=&app_absent=" id="fuente-personalizada-btn"class="btn btn-primary orange">HACE TU PEDIDO</a>
+
+
+		</div>
+</div>
+
+<div class="nosotros orange" id="nosotros">
+	<div class="container">
+		<h1>Sobre nosotros</h1>
+		<p>Somos emprendedores de Córdoba Capital que buscamos ofrecer la mejor experiencia virtual para los usuarios que consumen frutas y verduras, en esta nueva aventura del CONSUMO ONLINE que nos espera. <br> 
+			La relación PRECIO & CALIDAD es nuestro pilar de trabajo y tenemos el respando de una gran cantidad de clientes que nos eligen semana a semana! Te esperamos.
+</p>
+	</div>
+</div>
+<div class="container servicios" id="servicios">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Nuestros Productos y Servicios</h1>
+		</div>
+	</div>
+	<div class="row images">
+		<div class="col-md-3">
+			<img src="images/harvest.svg" alt="">
+			<h3>Frutas y verduras </h3>
+			<p>Te ofrecemos Frutas y Verduras de primera calidad, fresca y seleccionada. <br>
+				Podes pedirnos via Whatsapp la lista de precios, la misma se actualiza todas las semanas.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/dollar.svg" alt="">
+			<h3>Medios de pago</h3>
+			<p>Efectivo / Transferencia / Mercado Pago (envio de dinero)<br>
+				Una vez que recibis tu pedido podes abonar por cualquiera de estos medios <br>
+				COMPRA MINIMA $500
+			</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/001-diet.svg" alt="">
+			<h3>Arma tu pedido</h3>
+			<p>Envíanos  el listado de tu pedido vía WhatsApp y recibí tu pedido al día siguiente! <br>
+				No olvides aclarar tu NOMBRE, APELLIDO  y DIRECCION!! <br>
+				Recorda que la COMPRA MINIMA es de $500</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/truck.svg" alt="">
+			<h3>Servicio de delivery</h3>
+			<p>¡! El envio es completamente GRATIS ¡! <br>
+				ZONA SUR, CENTRO, NUEVA CORDOBA, GUEMES, ALBERDI, GENERAL PAZ, ALTA CORDOBA, COFICO. <br>
+				Si tenes dudas si llegamos a tu dirección, envianos la ubicación via WhatsApp y te respondemos a la brevedad.</p>
+		</div>
+	</div>
+	
+</div>
+
+<footer>
+	<div class="container" id="contacto">
+		<div class="row">
+			<div class="col-md-12">
+					<h1>CONTACTO</h1><br><br>
+
+			</div>
+		</div>
+		<div class="row social">
+		<div class="col-3"></div>	
+					<div class="col-2">
+						<a target="_blank" href="mailto:trabucco.francisco@gmail.com"><img src="images/001-mail.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a href="https://www.facebook.com/LA.VERDU.ONLINE.CBA"  target="_blank"><img src="images/002-facebook-logo.svg" alt=""></a></div>
+
+
+					<div class="col-2">
+						<a target="_blank" href="https://www.instagram.com/la.verdu.online/?hl=es-la/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
+	</div>
+</footer>
+<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script>
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+	
+</script>
+</body>
+</html>
